@@ -9,7 +9,7 @@ def convertidor(file):
         mayusc = linea.upper()
         print(mayusc)
 
-# Cuando el programa pida la ruta del archivo tine que pasar con / la separacion de las 
+# Cuando el programa pida la ruta del archivo tiene que pasar con / la separacion de las 
 # carpetas
 archivo = str(input('Ingrese la ruta relativa del archivo: '))
 fileName = open(archivo,'r')
